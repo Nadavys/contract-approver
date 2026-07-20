@@ -1,0 +1,172 @@
+[
+  {
+    "id": "7a9330d9-8b74-47bd-8ce2-d051f44aa3bf",
+    "name": "Solstice Health Systems - Mutual NDA.pdf",
+    "uploaded_at": "2026-07-14T14:30:00Z",
+    "status": "on_review",
+    "version": 4,
+    "document": {
+      "pdf_url": "/contracts/Flawed_NDA_Demo.pdf"
+    },
+    "user": {
+      "id": "9a97566b-1474-41d4-995c-ccac7fb5dfa4",
+      "first_name": "Priya",
+      "last_name": "Natarajan"
+    },
+    "problems": [
+      {
+        "id": "f7b2892f-85c7-440e-a948-3ac47968cf9f",
+        "title": "Mislabeled Structure — Non-Mutual Obligations",
+        "description": "The document is titled a \"Mutual\" NDA, but Section 3 on page 1 makes only Keystone's obligations binding — Solstice has none.",
+        "severity": "critical",
+        "page": 1
+      },
+      {
+        "id": "4f0eacff-b1c2-4b7f-b9bb-0c56dd58ef02",
+        "title": "Key Term Left Undefined",
+        "description": "Section 1 on page 1 never actually defines \"Confidential Information,\" deferring to \"the meaning customarily ascribed to it... to be finalized by legal.\"",
+        "severity": "critical",
+        "page": 1
+      },
+      {
+        "id": "02ea0f5b-7f59-44a3-8ea4-68ed55434141",
+        "title": "Unfilled Placeholder Field",
+        "description": "The Disclosing Party's address on page 1 is left as the placeholder \"[ADDRESS TBD]\".",
+        "severity": "major",
+        "page": 1
+      },
+      {
+        "id": "bbdef66c-014e-4f43-8b3b-d32cc5943eb0",
+        "title": "Effective Date Contradiction",
+        "description": "The Effective Date is stated as December 1, 2026, but the recitals on page 1 describe collaboration \"since January 1, 2025\" and the signature block is dated January 15, 2026 — before the stated Effective Date.",
+        "severity": "major",
+        "page": 1
+      },
+      {
+        "id": "d94c722d-e45d-4a6d-b317-4d25fe1ac79c",
+        "title": "Conflicting Term Lengths",
+        "description": "Section 4 (Term) says the agreement lasts 1 year, Section 10 (Survival) on page 3 says confidentiality survives 10 years, and Section 13 (Entire Agreement) says confidentiality is perpetual — three contradictory durations.",
+        "severity": "critical",
+        "page": 3
+      },
+      {
+        "id": "93ac0c80-1271-4c22-a547-60e250757b3b",
+        "title": "Broken Section Cross-Reference",
+        "description": "Section 9 (Remedies) on page 3 references \"Section 15,\" which doesn't exist — the document jumps from Section 14 to Section 16.",
+        "severity": "major",
+        "page": 3
+      },
+      {
+        "id": "05177ccc-ab3c-4622-ad72-36dce366e2e9",
+        "title": "Missing Governing Law Clause",
+        "description": "The document has no governing law or jurisdiction clause anywhere.",
+        "severity": "critical",
+        "page": 4
+      },
+      {
+        "id": "aa839d87-04a4-4bf3-82e6-54af24480c15",
+        "title": "Missing Signature Block",
+        "description": "Only Solstice's signature block appears on page 4 — Keystone's signature block is missing entirely.",
+        "severity": "critical",
+        "page": 4
+      },
+      {
+        "id": "2c24cf8b-b3df-45aa-a2a8-759fa94cc6d9",
+        "title": "Inconsistent Party Name",
+        "description": "\"Solstice Health Systems, Inc.\" in the preamble becomes \"Solistice Health Systems\" (misspelled, no entity suffix) in the signature block on page 4.",
+        "severity": "major",
+        "page": 4
+      },
+      {
+        "id": "85ac2a04-beab-4e4b-b144-16c89bd5a10f",
+        "title": "Vague Confidentiality Exclusions",
+        "description": "Section 2 on page 1 is a single circular sentence — \"Information that is not confidential is not covered\" — with none of the standard carve-outs for prior knowledge, public domain, independent development, or third-party disclosure.",
+        "severity": "minor",
+        "page": 1
+      },
+      {
+        "id": "fcfb28cb-43ef-4be5-aa48-006edba45537",
+        "title": "Duplicate Section Numbering",
+        "description": "Two separate sections on page 2 are both labeled \"Section 7\" — one for IP Assignment and one for No Warranty.",
+        "severity": "minor",
+        "page": 2
+      },
+      {
+        "id": "672848d8-eb2b-4bba-9cc6-6b9d716f16f7",
+        "title": "Non-NDA Scope Creep",
+        "description": "Sections 6 (Non-Competition) and 7 (IP Assignment) on page 2 don't belong in an NDA — they impose competitive restrictions and IP transfer obligations far beyond confidentiality.",
+        "severity": "major",
+        "page": 2
+      },
+      {
+        "id": "c5cdbe5f-b2b3-4ee4-8f24-40344232d51c",
+        "title": "Spelling and Grammar Errors",
+        "description": "Spelling and grammar errors — \"confidental,\" \"herby,\" \"recieve,\" \"Aggreement\" — are scattered throughout the document, including page 2.",
+        "severity": "minor",
+        "page": 2
+      },
+      {
+        "id": "178c56af-0042-4226-b7c0-211d3f48a439",
+        "title": "Uncapped One-Sided Indemnification",
+        "description": "Section 8 on page 3 requires Keystone to indemnify Solstice for \"any and all losses whatsoever,\" with no cap and no fault qualifier, while Solstice owes nothing in return.",
+        "severity": "critical",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "60739a53-260a-451b-97a3-c81a6deaab02",
+    "name": "Northbridge Analytics - Mutual NDA.pdf",
+    "uploaded_at": "2026-07-16T09:15:00Z",
+    "status": "processing",
+    "version": 1,
+    "document": {
+      "pdf_url": "/contracts/Mutual_NDA_Demo.pdf"
+    },
+    "user": {
+      "id": "a61782f3-1425-42c3-8229-c503992d73b6",
+      "first_name": "Elena",
+      "last_name": "Kowalski"
+    },
+    "problems": []
+  },
+  {
+    "id": "d0f38610-4a31-44c5-9015-4588eac0e7e3",
+    "name": "Harborview Retail Group - Vendor Contract Overview.pdf",
+    "uploaded_at": "2026-07-13T11:00:00Z",
+    "status": "approved",
+    "approved_at": "2026-07-17T16:42:00Z",
+    "version": 5,
+    "document": {
+      "pdf_url": "/contracts/Vendor_Contract_Overview.pdf"
+    },
+    "user": {
+      "id": "935922a4-af73-40bd-8e63-ca3c7ee68ee2",
+      "first_name": "Theo",
+      "last_name": "Bracken"
+    },
+    "problems": [
+      {
+        "id": "055b863b-ac01-4182-8ead-f56f25d2394f",
+        "title": "Section Requires Review",
+        "description": "A section on page 2 needs manual review before this document can be finalized.",
+        "severity": "critical",
+        "page": 2
+      },
+      {
+        "id": "afcfbe2c-4e83-466c-ac39-625d8c856a5c",
+        "title": "Unresolved Flag",
+        "description": "An automated flag raised on page 3 hasn't been addressed yet.",
+        "severity": "major",
+        "page": 3
+      },
+      {
+        "id": "a10ca136-e356-4677-8dd0-7e97fb025aec",
+        "title": "Data Point Missing",
+        "description": "A required data point on page 1 was left blank.",
+        "severity": "minor",
+        "page": 1
+      }
+    ]
+  }
+]
