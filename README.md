@@ -1,5 +1,7 @@
 # Demo Contract Review App Frontend
 
+**Live demo:** [nadavys.github.io/contract-approver](https://nadavys.github.io/contract-approver/)
+
 A demo frontend for a contract review tool: users land on a Documents list, open a contract into a review workflow (view the PDF, search it, resolve issues), and approve it once all blocking issues are cleared.
 
 ### Review page 
