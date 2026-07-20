@@ -7,6 +7,7 @@ import Box from '@mui/material/Box'
 import { useViewerStore } from '../../store/useViewerStore'
 import { useDocumentStore } from '../../store/useDocumentStore'
 import { useDocumentId } from '../../routes'
+import { assetPath } from '../../assetPath'
 import type { PdfSearch } from './usePdfSearch'
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
@@ -76,7 +77,7 @@ export default function PdfViewerPage({ search }: PdfViewerPageProps) {
       }}
     >
       <Document
-        file={pdfUrl}
+        file={assetPath(pdfUrl)}
         onLoadSuccess={({ numPages }) => setNumPages(numPages)}
         className="pdf-document-stack"
       >

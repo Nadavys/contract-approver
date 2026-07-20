@@ -10,7 +10,10 @@ import { playwright } from '@vitest/browser-playwright';
 const dirname = typeof __dirname !== 'undefined' ? __dirname : path.dirname(fileURLToPath(import.meta.url));
 
 // More info at: https://storybook.js.org/docs/next/writing-tests/integrations/vitest-addon
-export default defineConfig({
+export default defineConfig(({ command }) => ({
+  // Only scoped to `build` (i.e. the GitHub Pages deploy) — the dev server
+  // keeps serving from "/" so local URLs/ports don't change.
+  base: command === 'build' ? '/contract-approver/' : '/',
   plugins: [react()],
   test: {
     projects: [{
@@ -34,4 +37,4 @@ export default defineConfig({
       }
     }]
   }
-});
+}));

@@ -6,6 +6,7 @@ import Stack from '@mui/material/Stack'
 import ButtonBase from '@mui/material/ButtonBase'
 import CheckRoundedIcon from '@mui/icons-material/CheckRounded'
 import { slate, severityColor } from '../../theme'
+import { assetPath } from '../../assetPath'
 import {
   useDocumentStore,
   selectCanApprove,
@@ -249,7 +250,7 @@ export default function SideMenu() {
           textDecoration: 'none',
         }}
       >
-        <Box component="img" src="/logo.svg" alt="Contract Review" sx={{ height: 22 }} />
+        <Box component="img" src={assetPath('/logo.svg')} alt="Contract Review" sx={{ height: 22 }} />
       </Stack>
 
       <DocumentInfo />

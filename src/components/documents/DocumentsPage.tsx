@@ -17,6 +17,7 @@ import NotificationsRoundedIcon from '@mui/icons-material/NotificationsRounded'
 import LightModeRoundedIcon from '@mui/icons-material/LightModeRounded'
 import DarkModeRoundedIcon from '@mui/icons-material/DarkModeRounded'
 import { slate } from '../../theme'
+import { assetPath } from '../../assetPath'
 import { useDocumentStore } from '../../store/useDocumentStore'
 import { useThemeStore } from '../../store/useThemeStore'
 import { useWIPDialogStore } from '../../store/useWIPDialogStore'
@@ -272,7 +273,7 @@ export default function DocumentsPage() {
             textDecoration: 'none',
           }}
         >
-          <Box component="img" src="/logo.svg" alt="Contract Review" sx={{ height: 22 }} />
+          <Box component="img" src={assetPath('/logo.svg')} alt="Contract Review" sx={{ height: 22 }} />
         </Stack>
 
         <Stack sx={{ p: '14px 12px', gap: '3px' }}>

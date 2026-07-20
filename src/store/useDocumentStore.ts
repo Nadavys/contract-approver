@@ -1,5 +1,6 @@
 import { create } from 'zustand'
 import type { Issue, Review } from '../types/review'
+import { assetPath } from '../assetPath'
 
 export type LoadStatus = 'idle' | 'loading' | 'loaded' | 'error'
 
@@ -77,7 +78,7 @@ export function toReview(json: ReviewJson): Review {
 // "GET /api/documents" response (an array of documents, each with the same
 // shape ReviewJson describes).
 async function fetchReviews(): Promise<Record<string, Review>> {
-  const response = await fetch('/mock_data/documents_api_mock.json')
+  const response = await fetch(assetPath('/mock_data/documents_api_mock.json'))
   if (!response.ok) {
     throw new Error(`Failed to load documents (${response.status})`)
   }
